@@ -16,7 +16,6 @@ class Employee:
 	def fullname(self):
 		return '{} {}'.format(self.first, self.last)
 
-
 emp_1 = Employee('John', 'Smith')
 
 print(emp_1.first)
